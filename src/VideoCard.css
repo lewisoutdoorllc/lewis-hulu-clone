@@ -1,7 +1,7 @@
 .videoCard {
     color: white;
-    /* height: 500px; */
-    /* width: 400px; */
+    height: 400px;
+    width: 500px;
     padding: 20px;
     transition: all 0.2s ease-in-out;
 }
@@ -11,7 +11,7 @@
 }
 
 .videoCard > img {
-    background-color: gray;
+    /* background-color: gray; */
     height: 300px;
     width: 500px;
     object-fit: contain;
@@ -19,4 +19,12 @@
 
 .videoCard > h2 {
 padding-top: 10px;
+}
+
+.videoCard__stats {
+    display: none;
+}
+
+.videoCard:hover > .videoCard__stats {
+    display: inline;
 }
